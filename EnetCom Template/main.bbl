@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{infoUNZbf}
+unz.bf.
+\newblock Consulté le 25 avril 2024.
+
+\bibitem{schwaber2011scrum}
+Ken Schwaber and Jeff Sutherland.
+\newblock The scrum guide.
+\newblock {\em Scrum Alliance}, 21(1):1--7, 2011.
+
+\bibitem{loeliger2012version}
+Jon Loeliger and Matthew McCullough.
+\newblock {\em Version Control with Git: Powerful tools and techniques for
+  collaborative software development}.
+\newblock " O'Reilly Media, Inc.", 2012.
+
+\bibitem{zolkifli2018version}
+Nazatul~Nurlisa Zolkifli, Amir Ngah, and Aziz Deraman.
+\newblock Version control system: A review.
+\newblock {\em Procedia Computer Science}, 135:408--415, 2018.
+
+\bibitem{lima2014coding}
+Antonio Lima, Luca Rossi, and Mirco Musolesi.
+\newblock Coding together at scale: Github as a collaborative social network.
+\newblock In {\em Proceedings of the international AAAI conference on web and
+  social media}, volume~8, pages 295--304, 2014.
+
+\end{thebibliography}

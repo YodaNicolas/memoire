@@ -1,0 +1,85 @@
+
+% @Author: YODA Nicolas
+% @Date:   2024-05-14
+
+\documentclass[12pt, oneside, a4paper]{enetcom-pfe-report}
+
+
+\graphicspath{{images/}}
+
+%% TODO: Remove this function when done %%
+%\newcommand\todoin[2][]{\todo[inline, caption={2do}, #1]{
+%\begin{minipage}{\textwidth-4pt}#2\end{minipage}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Include useful commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{Commands}
+
+\hypersetup{
+  pdftitle={\reportTitle~-~\reportSubject},%
+  pdfauthor={\reportAuthor},%
+  pdfsubject={\reportSubject},%
+  pdfkeywords={report} {internship} {pfe} {enentcom}
+}
+\dominitoc
+\begin{document}
+    \input{chapitre/00-PageDeGarde}
+    \doublespacing{}% Double spacing between lines
+    \pagenumbering{roman}% i ii iii iv ...
+    
+    \input{chapitre/01-Dedication}
+
+    \input{chapitre/02-Remerciement}
+   
+    \addtocontents{toc}{\protect\thispagestyle{MyStyle}}
+    \renewcommand*\contentsname{TABLE DES MATIÈRES}
+    \begin{spacing}{1}
+    \tableofcontents
+    \end{spacing}
+
+    \addtocontents{lof}{\protect\thispagestyle{MyStyle}}
+ \renewcommand*\listtablename{LISTE DES TABLEAUX}
+  \begin{spacing}{1}
+    \listoftables
+    \end{spacing}
+\addcontentsline{toc}{chapter}{\listtablename}
+    \adjustmtc
+
+    \addtocontents{lof}{\protect\thispagestyle{MyStyle}}
+    \renewcommand{\listfigurename}{LISTE DES FIGURES}
+    \begin{spacing}{1}
+    \listoffigures
+    \end{spacing}
+    \addcontentsline{toc}{chapter}{\listfigurename}
+    \adjustmtc
+
+    \input{chapitre/03-ListeDesAbr2}
+    
+    \input{chapitre/04-IntroductionGeneral}
+\pagenumbering{arabic}% 1 2 3 4 5
+ \input{chapitre/05-Chapitre1}%Presentation de l'université norbert zongo
+
+\input{chapitre/Chapitre2}%contexte problematique et objectifs
+    
+    \doublespacing{}% Double spacing between lines
+    %\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
+    \input{chapitre/Chapitre3} % Methodologie de travail
+    
+    \input{chapitre/Chapitre4}%Etude conceptuelle
+    
+    \input{chapitre/Chapitre5}%Implementation et concretisation    
+    
+    \input{chapitre/07-ConclusionGenerale}
+
+    %\input{chapitre/08-Bibliographie}
+   \bibliographystyle{unsrt}
+  % Style de la bibliographie
+\bibliography{bibliographie}%  Nom du fichier .bib (sans l'extension)
+
+    \input{chapitre/09-Annexes}
+    
+    \input{chapitre/10-DosDuRapport}
+    
+
+\end{document}

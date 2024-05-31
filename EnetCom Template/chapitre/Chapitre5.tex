@@ -1,0 +1,156 @@
+\chapter{Implémentation et concrétisation}
+\markboth{Chapitre 5. Implémentation et concrétisation}{} 
+\begin{spacing}{1.2}
+\minitoc
+\thispagestyle{MyStyle}
+\end{spacing}
+\newpage
+
+\section*{Introduction}
+Dans cette phase de développement de notre plateforme de bibliothèque numérique, nous avons été confrontés à une grande responsabilité : transformer nos plans en réalité. Ce chapitre marque ainsi le passage de la planification à la concrétisation de notre projet.\par
+    La première étape a consisté à choisir les outils et les technologies les plus adaptés à notre projet. Cette décision a été cruciale, car elle a influencé la manière dont nous avons conçu et mis en œuvre les fonctionnalités de notre application. Nous avons exploré les critères pris en compte dans ce choix, ainsi que les avantages et les inconvénients des différentes options disponibles.
+    Ensuite, nous avons abordé la création des modèles et la migration vers la base de données. Cette phase a été fondamentale dans la construction de notre plateforme, car elle a impliqué la conception des structures de données et des relations entre les entités, ainsi que la migration des données existantes vers la nouvelle architecture.
+     Enfin, nous nous sommes plongés dans le développement des fonctionnalités de notre plateforme, où chaque ligne de code que nous avons écrite a contribué à donner vie à notre vision. Nous allons détailler les différentes fonctionnalités que nous avons développées.
+   En résumé, ce chapitre met en lumière notre rôle de développeur dans la réalisation de notre plateforme de bibliothèque numérique. Nous détaillerons les différentes phases d'implémentation et les défis rencontrés tout au long du processus.
+
+\section{Choix des outils}
+Dans cette section, nous abordons le choix des outils pour le développement de notre plateforme de bibliothèque numérique, Une étape importante dans la concrétisation de notre projet car les outils sélectionnés ont eu un impact significatif sur la manière dont nous avons conçu et mis en œuvre les fonctionnalités de notre plateforme.\par
+
+Nous avons pris soin d'analyser les différentes options disponibles, en tenant compte de divers critères tels que la facilité d'utilisation, la compatibilité avec nos besoins, la robustesse et la popularité dans la communauté de développement. Notre objectif était de choisir des outils qui nous permettraient de maximiser notre productivité tout en garantissant la qualité et la fiabilité de notre plateforme.\par
+
+Nous détaillerons les processus de sélection des outils, en mettant en lumière les critères et les considérations qui ont guidé nos choix. Nous examinerons également les outils spécifiques que nous avons finalement sélectionnés pour chaque aspect du développement de notre plateforme, ainsi que les raisons derrière ces choix. Enfin, nous discuterons des avantages et des défis associés à l'utilisation de ces outils dans le contexte de notre projet.\par
+
+En résumé, ce chapitre offre un aperçu détaillé du processus de sélection des outils pour le développement de notre plateforme de bibliothèque numérique, mettant en évidence les décisions prises et les implications de ces choix sur le déroulement et les résultats de notre projet.
+
+\subsection{Environnement de développement intégré (IDE)}
+L'un des premiers éléments que nous avons abordés est l'environnement de développement intégré (IDE), qui constitue un pilier essentiel de notre workflow de développement.\par
+
+	Comme définition, un environnement de développement intégré (IDE) est un logiciel qui fournit un ensemble complet d'outils pour les développeurs afin de faciliter la création, la modification, le débogage et le déploiement de logiciels. En d'autres termes, un IDE est un environnement logiciel unifié qui regroupe plusieurs fonctionnalités essentielles pour le développement de logiciels dans une seule interface utilisateur.\par 
+
+Les IDE sont conçus pour offrir une expérience de développement intégrée et fluide, en fournissant des fonctionnalités telles que :\\
+
+	Éditeur de code : Un éditeur de code intégré permet aux développeurs d'écrire, de modifier et de formater du code source dans divers langages de programmation. Cet éditeur offre souvent des fonctionnalités avancées telles que la coloration syntaxique, l'autocomplétions, l'indentation automatique et la mise en évidence des erreurs de syntaxe.
+\par
+	Outils de débogage : Les IDE fournissent des outils de débogage puissants qui permettent aux développeurs d'identifier et de corriger les erreurs dans leur code. Ces outils permettent de mettre en pause l'exécution du programme, d'inspecter les variables, de suivre l'exécution du code ligne par ligne et de détecter les erreurs de logique.\par
+
+	Gestion de projet : Les IDE offrent des fonctionnalités de gestion de projet qui permettent aux développeurs d'organiser et de gérer efficacement leur code source, leurs fichiers et leurs ressources. Cela inclut souvent des fonctionnalités telles que la navigation dans le code, la recherche de fichiers, la gestion des dépendances et la gestion de versions.\par
+
+	Intégration avec des outils externes : Les IDE intègrent souvent des outils externes tels que des compilateurs, des gestionnaires de packages, des outils de contrôle de version et des environnements de test, ce qui permet aux développeurs d'accéder à toutes les fonctionnalités dont ils ont besoin à partir d'une seule interface.\par
+
+En somme, un IDE est un outil essentiel pour les développeurs de logiciels, car il leur fournit un environnement de développement unifié et complet qui simplifie et accélère le processus de création de logiciels. Grâce à ses fonctionnalités avancées, un IDE permet aux développeurs de travailler de manière plus efficace et productive, en leur offrant les outils nécessaires pour créer des applications de haute qualité.\par
+
+Concernant notre projet nous avons opté pour Visual Studio Code (VS Code), un environnement polyvalent et puissant qui a grandement facilité notre travail tout au long du projet.
+Dans cette section, nous détaillerons notre choix d'utiliser VS Code comme IDE principal pour le développement de notre plateforme. Nous explorerons les raisons derrière ce choix, en mettant en lumière les fonctionnalités clés et les extensions de VS Code que nous avons utilisés pour améliorer notre flux de travail et pour personnaliser notre environnement de développement en fonction de nos besoins spécifiques. Nous préciserons comment ces extensions ont optimisé notre productivité et nous ont permis de gérer efficacement les tâches de développement complexes.
+En résumé, ce chapitre offre un aperçu détaillé de notre utilisation de Visual Studio Code comme IDE principal pour le développement de notre plateforme de bibliothèque numérique. \par 
+
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=6.9cm,height=6.7cm]{images/vs code.jpg}%
+    }
+    \caption{Logo de VS Code}%
+\end{figure}
+
+Dans le tableau suivant, nous avons consigné les fonctionnalité et extensions de VS Code dont nous avons fait usage.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|p{4cm}|p{9cm}|}
+        \hline
+        Fonctionnalité/extension & Rôle \\
+        \hline
+        Terminal & Fonctionnalité permettant l'utilisation d'un terminal \\
+        \hline
+        Emmet & Fonctionnalité permettant l’autocomplétions et la génération de code en HTML \\
+        \hline
+        CSS formatter & Extension pour le formatage de code CSS \\ \hline
+       HTML CSS Support & Extension pour l’autocomplétions de code CSS directement dans du code HTML \\ \hline
+     Laravel Intelephense & Extension pour:
+\renewcommand{\labelitemi}{\tiny$-$}
+\begin{itemize}[leftmargin=2cm, topsep=0pt]
+        
+        \item voir les suggestions de code Laravel
+        \item faire l’autocomplétions de code Laravel
+        \item Gérer les importation
+        
+\end{itemize} 
+ \\ \hline
+ 
+      Laravel Snippets  & Extension pour l’autocomplétions  lors de la création des routes.\\ \hline
+      Laravel goto view & Extension pour passer d’un Controller à une vue blade grâce au nom de la vue \\ \hline
+     Laravel Blade Snippets & Extension pour:
+\renewcommand{\labelitemi}{\tiny$-$}
+\begin{itemize}[leftmargin=2cm, topsep=0pt]
+        
+        \item la coloration syntaxique dans les vues Blade
+        \item Génération de code incluant des balises HTML et des directives blade
+        \item l’utilisation de l’extension Emmet dans les vues blade
+       
+\end{itemize}
+ \\ \hline
+     Laravel Blade formatter & Extension pour l’autocomplétions de code dans les vues blade \\ \hline
+     Codeium & Fonctionnalité pour l’utilisation d’intelligence artificielle pour la génération et le débogage de code dans vs code.\\ \hline
+        \hline
+    \end{tabular}
+    \caption{Quelques extension de VS Code et leur rôle}
+    \label{Tableau:exemple}
+\end{table}
+\par Outre ces fonctionnalités, notre choix de VS Code se justifie par le fait qu'il s'agit d'un IDE très populaire [biblio]. De plus, nous nous sommes familiarisés avec VS Code depuis un certain temps. Nous avons donc trouvé judicieux d’opter pour cet éditeur, ce qui s’est avéré être un bon choix, car nous n’avons pas eu de difficulté à trouver de l’aide lorsque nous avons rencontré des problèmes et nous avons travaillé sur un interface qui nous était familière. 
+\par
+
+Le choix de VS Code nous a été d’un avantage considérable, car il a grandement facilité l'implémentation et la structuration de notre projet. Grâce à son interface conviviale et à ses nombreuses fonctionnalités, nous avons pu travailler de manière plus efficace et organisée. Néanmoins, nous avons rencontré quelques difficultés, notamment avec certaines extensions qui, à l'occasion, cessaient de fonctionner correctement. Il nous fallait alors les désactiver et les réactiver périodiquement pour résoudre ces problèmes. Malgré ces inconvénients mineurs, l'utilisation de VS Code s'est avérée globalement bénéfique pour notre travail.
+\par 
+
+
+\subsection{Serveur local}
+Un serveur local est un environnement de serveur web installé directement sur un ordinateur personnel ou une machine de développement. Il simule les conditions d'un serveur en ligne, permettant aux développeurs de créer, tester et modifier des applications web en toute sécurité avant de les déployer en production. L'utilisation d'un serveur local est essentielle dans le développement de projets web, car elle permet de tester et d'affiner les fonctionnalités avant de les déployer en production. Un serveur local offre un environnement sécurisé et contrôlé, où les développeurs peuvent expérimenter, corriger les erreurs et optimiser le code sans impact sur les utilisateurs finaux.
+
+Pour le développement de notre projet, nous avons opté pour l'utilisation de Laragon comme serveur local. Laragon est une plateforme de développement rapide et puissante qui facilite la gestion d'environnements de développement web. Elle est conçue pour être légère, portable, et rapide, offrant une alternative efficace aux autres solutions telles que XAMPP ou WAMP.
+
+Laragon se distingue par sa simplicité d'installation et de configuration. En quelques clics, il permet de mettre en place un environnement de développement complet, incluant Apache, MySQL, PHP [biblio], et bien d'autres outils indispensables. De plus, Laragon prend en charge les dernières versions de ces logiciels [biblio], garantissant ainsi que notre environnement de développement reste à jour avec les technologies actuelles.
+
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=6.9cm,height=6.7cm]{images/laragon logo.jpg}%
+    }
+    \caption{Logo de Laragon}%
+\end{figure}
+
+En utilisant Laragon, nous avons pu optimiser notre flux de travail et améliorer notre productivité. Ses performances élevées et sa stabilité ont permis de réduire les temps de chargement et d'exécution, tout en offrant un environnement cohérent et fiable. De plus, Laragon est hautement configurable [biblio], permettant de personnaliser son environnement selon le besoin.
+
+En résumé, Laragon s'est révélé être un choix judicieux pour notre serveur local, grâce à sa facilité d'utilisation, ses performances remarquables et sa flexibilité. Il a joué un rôle crucial dans le succès du développement de notre bibliothèque numérique de thèses et mémoires, en nous fournissant une base solide et fiable pour construire et tester notre plateforme.
+
+\subsection{Système de gestion de version}
+Un autre outil crucial dans notre processus de développement a été le système de gestion de version, plus précisément Git. L'utilisation d'un VCS (Version Control System) est indispensable pour tout projet de développement, car il permet de gérer les modifications apportées au code source au fil du temps, facilitant ainsi, la gestion des versions et le suivi des changements \cite{loeliger2012version}.
+\par 
+
+Comme définition, un système de gestion de version est un logiciel qui aide les développeurs à suivre les modifications du code source, à collaborer avec d'autres développeurs et à maintenir un historique complet des changements \cite{zolkifli2018version}. Git, en particulier, est un VCS distribué, ce qui signifie que chaque développeur possède une copie complète de l'historique du projet, facilitant le travail hors ligne et améliorant la résilience du projet.
+
+
+Fonctionnalités clés de Git nous ayant servi: \\
+\par 
+Suivi des Modifications : Git enregistre chaque modification apportée aux fichiers, permettant de suivre l'historique des changements.Il facilite également la comparaison entre différentes versions du code source, rendant plus simple l'identification des différences et des modifications spécifiques.
+\par 
+Branches et Fusions : Git permet de créer des branches pour développer des fonctionnalités ou corriger des bugs indépendamment de la branche principale. 
+Les outils de fusion de Git sont puissants et permettent de combiner les changements de différentes branches de manière fluide et efficace.
+\par 
+Réversibilité: En cas de problème, Git permet de revenir facilement à une version précédente, assurant la sécurité et la stabilité du projet.
+Cette capacité à annuler les modifications nous a été cruciale pour le développement de plateforme.
+\par 
+En conclusion, Git a joué un rôle central en tant que système de gestion de version. Même en tant que développeur unique. Ce fut un outil indispensable pour assurer une gestion efficace et organisée de notre code source. Son utilisation nous a permis de développer notre plateforme de manière structurée, sécurisée et flexible.
+
+\subsection{Plateforme de Gestion de Version}
+En complément de Git, nous avons utilisé une plateforme de gestion de version et de collaboration pour pouvoir gérer le suivi des modifications de code, la gestion de projets, et la collaboration entre développeurs bien que notre projet ait été réalisé par un seul développeur. Nous avons opté pour GitHub qui est le plus populaire avec plus de 3,5 million d'utilisateurs \cite{lima2014coding} en 2013.
+GitHub nous a fourni des avantages significatifs pour la gestion et l'organisation du code tel que :
+Les Dépôts (Repositories) : GitHub permet de créer des dépôts (repositories) pour héberger le code source. Chaque dépôt contient l'historique complet des modifications et les branches du projet. Les dépôts peuvent être publics ou privés, offrant ainsi une flexibilité en termes de visibilité et de collaboration au besoin. \par
+Gestion centralisée du code : Les dépôts GitHub permettent de stocker le code source de manière centralisée, offrant un accès sécurisé et structuré à toutes les versions du code. Cette centralisation facilite la gestion des différentes branches et versions du projet, même pour un développeur unique.
+\par Pour notre projet, GitHub a hébergé notre dépôt de code, offrant un accès centralisé et sécurisé à l'historique complet des modifications et aux différentes branches. Cette centralisation a facilité la gestion des versions, la sauvegarde du code et la restauration en cas de besoin. Aussi, en utilisant GitHub, nous avons pu suivre les modifications apportées au code de manière systématique, facilitant le retour à des versions antérieures si nécessaire. Le stockage du code sur GitHub a assuré une sauvegarde fiable et un accès constant, ce qui est crucial pour éviter la perte de données et pour travailler de manière flexible depuis n'importe quel endroit. 
+\par
+En conclusion, GitHub a été un outil indispensable pour la gestion et l'organisation de notre projet. Sa fonctionnalité de gestion centralisée du code a permis de maintenir une approche méthodique et efficace, assurant la qualité et la stabilité de notre plateforme numérique. Grâce à GitHub, nous avons pu gérer notre code source de manière structurée, sécurisée et accessible.
+
+\section{Choix des technologies}
+Un autre aspect crucial dans la réalisation de notre projet a été le choix des technologies. Ce chapitre présente les différentes technologies que nous avons utilisées pour développer notre plateforme numérique, en expliquant les raisons de notre choix et les avantages qu'elles apportent à notre projet. Notre sélection comprend des langages et des frameworks robustes et éprouvés, qui nous ont permis de créer une application web dynamique, performante et évolutive.
