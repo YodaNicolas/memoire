@@ -1,13 +1,33 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{infoUNZbf}
 unz.bf.
 \newblock Consulté le 25 avril 2024.
 
+\bibitem{permana2015scrum}
+Putu Adi~Guna Permana.
+\newblock Scrum method implementation in a software development project
+  management.
+\newblock {\em International Journal of Advanced Computer Science and
+  Applications}, 6(9):198--204, 2015.
+
 \bibitem{schwaber2011scrum}
 Ken Schwaber and Jeff Sutherland.
 \newblock The scrum guide.
 \newblock {\em Scrum Alliance}, 21(1):1--7, 2011.
+
+\bibitem{berardi2005reasoning}
+Daniela Berardi, Diego Calvanese, and Giuseppe De~Giacomo.
+\newblock Reasoning on uml class diagrams.
+\newblock {\em Artificial intelligence}, 168(1-2):70--118, 2005.
+
+\bibitem{code2019visual}
+Visual~Studio Code.
+\newblock Visual studio code.
+\newblock {\em Recuperado el Octubre de}, 2019.
+
+\bibitem{laragon.org}
+laragon.or/.
 
 \bibitem{loeliger2012version}
 Jon Loeliger and Matthew McCullough.
@@ -25,5 +45,31 @@ Antonio Lima, Luca Rossi, and Mirco Musolesi.
 \newblock Coding together at scale: Github as a collaborative social network.
 \newblock In {\em Proceedings of the international AAAI conference on web and
   social media}, volume~8, pages 295--304, 2014.
+
+\bibitem{lubbers2011pro}
+Peter Lubbers, Brian Albers, Frank Salim, and Tony Pye.
+\newblock {\em Pro HTML5 programming}.
+\newblock Springer, 2011.
+
+\bibitem{powell2010html}
+Thomas Powell.
+\newblock {\em HTML \& CSS: the complete reference}.
+\newblock McGraw-Hill, Inc., 2010.
+
+\bibitem{infojs}
+fr.javascript.info.
+\newblock Consulté le 28 avril 2024.
+
+\bibitem{jqueryinfo}
+api.jquery.com/.
+\newblock Consulté le 28 avril 2024.
+
+\bibitem{infoPHP}
+php.net.
+\newblock Consulté le 28 avril 2024.
+
+\bibitem{laravelinfo}
+laravel.com.
+\newblock Consulté le 28 avril 2024.
 
 \end{thebibliography}

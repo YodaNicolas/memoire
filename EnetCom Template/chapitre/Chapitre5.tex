@@ -1,5 +1,5 @@
 \chapter{Implémentation et concrétisation}
-\markboth{Chapitre 5. Implémentation et concrétisation}{} 
+\markboth{Chapitre 4. Implementation et concrétisation}{} 
 \begin{spacing}{1.2}
 \minitoc
 \thispagestyle{MyStyle}
@@ -48,7 +48,7 @@ En résumé, ce chapitre offre un aperçu détaillé de notre utilisation de Vis
     \setlength{\fboxsep}{5pt}%
     \setlength{\fboxrule}{0.5pt}%
     \fbox{
-    \includegraphics[width=6.9cm,height=6.7cm]{images/vs code.jpg}%
+    \includegraphics[width=4cm,height=4cm]{images/vs code.jpg}%
     }
     \caption{Logo de VS Code}%
 \end{figure}
@@ -94,9 +94,10 @@ Dans le tableau suivant, nous avons consigné les fonctionnalité et extensions 
         \hline
     \end{tabular}
     \caption{Quelques extension de VS Code et leur rôle}
-    \label{Tableau:exemple}
+    \label{Tableau:Quelques extensions de VS Code et leur rôle}
 \end{table}
-\par Outre ces fonctionnalités, notre choix de VS Code se justifie par le fait qu'il s'agit d'un IDE très populaire [biblio]. De plus, nous nous sommes familiarisés avec VS Code depuis un certain temps. Nous avons donc trouvé judicieux d’opter pour cet éditeur, ce qui s’est avéré être un bon choix, car nous n’avons pas eu de difficulté à trouver de l’aide lorsque nous avons rencontré des problèmes et nous avons travaillé sur un interface qui nous était familière. 
+\par
+ Outre ces fonctionnalités, notre choix de VS Code se justifie par le fait qu'il s'agit d'un IDE très populaire\cite{code2019visual}. De plus, nous nous sommes familiarisés avec VS Code depuis un certain temps. Nous avons donc trouvé judicieux d’opter pour cet éditeur, ce qui s’est avéré être un bon choix, car nous n’avons pas eu de difficulté à trouver de l’aide lorsque nous avons rencontré des problèmes et nous avons travaillé sur un interface qui nous était familière. 
 \par
 
 Le choix de VS Code nous a été d’un avantage considérable, car il a grandement facilité l'implémentation et la structuration de notre projet. Grâce à son interface conviviale et à ses nombreuses fonctionnalités, nous avons pu travailler de manière plus efficace et organisée. Néanmoins, nous avons rencontré quelques difficultés, notamment avec certaines extensions qui, à l'occasion, cessaient de fonctionner correctement. Il nous fallait alors les désactiver et les réactiver périodiquement pour résoudre ces problèmes. Malgré ces inconvénients mineurs, l'utilisation de VS Code s'est avérée globalement bénéfique pour notre travail.
@@ -110,17 +111,9 @@ Pour le développement de notre projet, nous avons opté pour l'utilisation de L
 
 Laragon se distingue par sa simplicité d'installation et de configuration. En quelques clics, il permet de mettre en place un environnement de développement complet, incluant Apache, MySQL, PHP [biblio], et bien d'autres outils indispensables. De plus, Laragon prend en charge les dernières versions de ces logiciels [biblio], garantissant ainsi que notre environnement de développement reste à jour avec les technologies actuelles.
 
-\begin{figure}[H]%
-    \center%
-    \setlength{\fboxsep}{5pt}%
-    \setlength{\fboxrule}{0.5pt}%
-    \fbox{
-    \includegraphics[width=6.9cm,height=6.7cm]{images/laragon logo.jpg}%
-    }
-    \caption{Logo de Laragon}%
-\end{figure}
 
-En utilisant Laragon, nous avons pu optimiser notre flux de travail et améliorer notre productivité. Ses performances élevées et sa stabilité ont permis de réduire les temps de chargement et d'exécution, tout en offrant un environnement cohérent et fiable. De plus, Laragon est hautement configurable [biblio], permettant de personnaliser son environnement selon le besoin.
+En utilisant Laragon, nous avons pu optimiser notre flux de travail et améliorer notre productivité. Ses performances élevées et sa stabilité ont permis de réduire les temps de chargement et d'exécution, tout en offrant un environnement cohérent et fiable. De plus, 
+Laragon est un environnement de développement universel portable, isolé, rapide et puissant pour PHP, Node.js, Python, Java, Go, Ruby. Il est rapide, léger, facile à utiliser et facile à étendre \cite{laragon.org}.
 
 En résumé, Laragon s'est révélé être un choix judicieux pour notre serveur local, grâce à sa facilité d'utilisation, ses performances remarquables et sa flexibilité. Il a joué un rôle crucial dans le succès du développement de notre bibliothèque numérique de thèses et mémoires, en nous fournissant une base solide et fiable pour construire et tester notre plateforme.
 
@@ -135,7 +128,7 @@ Fonctionnalités clés de Git nous ayant servi: \\
 \par 
 Suivi des Modifications : Git enregistre chaque modification apportée aux fichiers, permettant de suivre l'historique des changements.Il facilite également la comparaison entre différentes versions du code source, rendant plus simple l'identification des différences et des modifications spécifiques.
 \par 
-Branches et Fusions : Git permet de créer des branches pour développer des fonctionnalités ou corriger des bugs indépendamment de la branche principale. 
+Branches et Fusions : Git permet de créer des branches pour développer des fonctionnalités ou corriger des \index{bugs}bugs indépendamment de la branche principale. 
 Les outils de fusion de Git sont puissants et permettent de combiner les changements de différentes branches de manière fluide et efficace.
 \par 
 Réversibilité: En cas de problème, Git permet de revenir facilement à une version précédente, assurant la sécurité et la stabilité du projet.
@@ -153,4 +146,87 @@ Gestion centralisée du code : Les dépôts GitHub permettent de stocker le code
 En conclusion, GitHub a été un outil indispensable pour la gestion et l'organisation de notre projet. Sa fonctionnalité de gestion centralisée du code a permis de maintenir une approche méthodique et efficace, assurant la qualité et la stabilité de notre plateforme numérique. Grâce à GitHub, nous avons pu gérer notre code source de manière structurée, sécurisée et accessible.
 
 \section{Choix des technologies}
-Un autre aspect crucial dans la réalisation de notre projet a été le choix des technologies. Ce chapitre présente les différentes technologies que nous avons utilisées pour développer notre plateforme numérique, en expliquant les raisons de notre choix et les avantages qu'elles apportent à notre projet. Notre sélection comprend des langages et des frameworks robustes et éprouvés, qui nous ont permis de créer une application web dynamique, performante et évolutive.
+Après avoir achevé les différentes étapes de conception, nous avons entamé la concrétisation de notre projet en utilisant un ensemble de technologies complémentaires. Pour structurer le contenu de notre application, nous avons utilisé le langage de balisage HTML. La présentation et le style ont été assurés par CSS. En ce qui concerne les \index{langages de programmation}langages de programmation , nous avons principalement utilisé PHP avec son framework Laravel, et JavaScript accompagné de la bibliothèque JQuery pour ajouter des fonctionnalités dynamiques et interactives. \par 
+
+Ce chapitre dévoilera en détail la conception de notre plateforme, en présentant les architectures mises en place. Nous explorerons comment chaque technologie a été intégrée pour répondre aux besoins spécifiques de notre projet. En un mot, nous exposerons les rouages internes de notre application, y compris les structures de base de données, les interfaces utilisateur, et les fonctionnalités principales, afin de donner une vision complète et transparente de son fonctionnement.
+
+\subsection{HTML5}
+HTML (HyperText Markup Language) est la structure de base dans toute les pages web \cite{lubbers2011pro}.
+Son utilisation a permis de créer une structure de page claire, sémantique et \index{accessible}accessible, posant ainsi les bases solides pour une expérience utilisateur optimale. HTML5 a été le premier pas vers la réalisation de notre plateforme, garantissant que chaque page est bien organisée et facile à naviguer.
+HTML5 a donc servir à mettre en place le squelette de notre plateforme.
+
+
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=13cm,height=6.7cm]{images/capture html.png}%
+    }
+    \caption{Une partie du code HTML}%
+\end{figure}
+
+\subsection{CSS}
+Le CSS (Cascading Style Sheets) vient en complement du HTML \cite{powell2010html} 
+L'utilisation de CSS a joué un rôle crucial dans la création d'une interface utilisateur attrayante, responsive et cohérente pour notre plateforme. CSS nous a permis de définir l'apparence visuelle de notre site web et de garantir une expérience utilisateur agréable et intuitive.
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=13cm,height=6.7cm]{images/capture css.png}%
+    }
+    \caption{Code CSS pour styliser une zone dans la page de connection}%
+\end{figure}
+
+\subsection{JavScript}
+JavaScript a été initialement créé pour “rendre les pages web vivantes”.
+Les programmes dans ce langage sont appelés scripts. Ils peuvent être écrits directement dans une page HTML et exécutés automatiquement au chargement des pages. \cite{infojs}\par 
+
+Nous avons également fait usage de jQuery qui est une bibliothèque JavaScript rapide, légère et riche en fonctionnalités\cite{jqueryinfo} . pour pouvoir gérer la fonctionnalité de recherche(filtre).
+
+
+\subsection{PHP}
+PHP (officiellement, ce sigle est un acronyme récursif pour PHP Hypertext Preprocessor) est un langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web. Il peut être intégré facilement au HTML.
+Le grand avantage de PHP est qu'il est extrêmement simple pour les néophytes, mais offre des fonctionnalités avancées pour les experts\cite{infoPHP}.
+La logique de notre plateforme a été codé en php à travers son framework Laravel.
+
+ \begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=13cm,height=6.7cm]{images/controllerpreoc.PNG}%
+    }
+    \caption{Code PHP pour la récupération des préoccupation en base de données}%
+\end{figure}
+
+\subsection{Framework Laravel}
+
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=5cm,height=5cm]{images/laravel logo.png}%
+    }
+    \caption{Logo Laravel}%
+\end{figure}
+
+  Un framework web est un ensemble d'élément préétablie qui fournit une structure et un point de départ pour créer une application web, vous permettant ainsi de se concentrer sur la création de quelque chose d'extraordinaire au lieu des détails.
+Laravel est un framework d'applications web avec une syntaxe expressive et élégante\cite{laravelinfo}.
+\newpage
+\subsection{SGBD MySQL}
+\begin{figure}[H]%
+    \center%
+    \setlength{\fboxsep}{5pt}%
+    \setlength{\fboxrule}{0.5pt}%
+    \fbox{
+    \includegraphics[width=5cm,height=5cm]{images/logo mysql.png}%
+    }
+    \caption{Logo MySQL}%
+\end{figure}
+Pour la gestion des données, nous avons opté pour MySQL, offrant une solution robuste et fiable pour \index{stocker}stocker et récupérer les informations nécessaires à notre plateforme. Grâce au systeme de mapage eloquent de Laravel nous sommes parvenus à mettre en place  les différents systèmes de manipulation des données.
+
+\section*{Conclusion}
+Pour réaliser notre plateforme, nous avons en prélude fais le choix des outils et technologies nécessaire à cette réalisation. Nos différents chois ce sont basés sur des critères pertinent de sorte à être à l'aise tout au long de cette aventure. Nous avons opté pour le volet technologie pour VS code comme IDE, Git combiné a GitHub pour la \index{sauvegarde}sauvegarde et la méthodologie agile scrum. Pour le volet technologie nous avons choisi bien sur HTML, CSS et JavaScript pour réaliser nos interface et PHP avec son framework Laravel pour mettre en place la logique de notre plateforme. Le SGBD qui nous a semblé plus propice et pour le quel nous avons opté est MySQL. Tous ces outils et technologie nous on permis d'atteindre nos objectifs même si nous avons rencontré quelques soucis.

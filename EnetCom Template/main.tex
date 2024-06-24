@@ -4,7 +4,8 @@
 
 \documentclass[12pt, oneside, a4paper]{enetcom-pfe-report}
 
-
+\usepackage{imakeidx}
+\makeindex[columns=1, title= LISTE DES TERMES INDEXES]
 \graphicspath{{images/}}
 
 %% TODO: Remove this function when done %%
@@ -33,7 +34,7 @@
     \input{chapitre/02-Remerciement}
    
     \addtocontents{toc}{\protect\thispagestyle{MyStyle}}
-    \renewcommand*\contentsname{TABLE DES MATIÈRES}
+    \renewcommand*\contentsname{TABLE DES MATIERES}
     \begin{spacing}{1}
     \tableofcontents
     \end{spacing}
@@ -60,26 +61,45 @@
 \pagenumbering{arabic}% 1 2 3 4 5
  \input{chapitre/05-Chapitre1}%Presentation de l'université norbert zongo
 
-\input{chapitre/Chapitre2}%contexte problematique et objectifs
+\input{chapitre/Chapitre2}%contexte problematique objectifs et  Methodologie de travail
     
     \doublespacing{}% Double spacing between lines
-    %\addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
-    \input{chapitre/Chapitre3} % Methodologie de travail
+    \addtocontents{toc}{\protect\setcounter{tocdepth}{2}}
     
-    \input{chapitre/Chapitre4}%Etude conceptuelle
+    %\input{chapitre/Chapitre3} % Methodologie de travail
     
-    \input{chapitre/Chapitre5}%Implementation et concretisation    
+    %\input{chapitre/Chapitre3}%Etude conceptuelle
     
+    \input{chapitre/Chapitre4}%Etude conceptuelle    
+    
+     \input{chapitre/Chapitre5}%  Implementation et concretisation
+     
+       \input{chapitre/Chapitre5.1}%Prsentation de la plateforme
+     
+     \input{chapitre/Chapitre6}%Analyse et discussion des resultats
+     
     \input{chapitre/07-ConclusionGenerale}
+
+
+\newpage
+\addtocontents{toc}{\protect\thispagestyle{MyStyle}} % Appliquer le style de page personnalisé
+
+% Générer la liste des termes indexés avec un interligne simple
+\begin{spacing}{1}
+    \printindex % Imprimer l'index
+\end{spacing}
+
+\renewcommand{\indexname}{LISTE DES TERMES INDEXES} 
+% Ajouter la liste des termes indexés à la table des matières
+\addcontentsline{toc}{chapter}{\indexname}
 
     %\input{chapitre/08-Bibliographie}
    \bibliographystyle{unsrt}
   % Style de la bibliographie
 \bibliography{bibliographie}%  Nom du fichier .bib (sans l'extension)
 
-    \input{chapitre/09-Annexes}
+    %\input{chapitre/09-Annexes}
     
     \input{chapitre/10-DosDuRapport}
-    
 
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.21)  31 MAY 2024 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.5.21)  24 JUN 2024 16:06
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1292,9 +1292,95 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 )
 \BoxWd=\skip100
 \Aux=\skip101
-) (Commands.tex)
+)
+(C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/imakeidx\imakeid
+x.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
+
+(C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.
+sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.s
+ty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count391
+\mult@box=\box94
+\multicol@leftmargin=\dimen366
+\c@unbalance=\count392
+\c@collectmore=\count393
+\doublecol@number=\count394
+\multicoltolerance=\count395
+\multicolpretolerance=\count396
+\full@width=\dimen367
+\page@free=\dimen368
+\premulticols=\dimen369
+\postmulticols=\dimen370
+\multicolsep=\skip102
+\multicolbaselineskip=\skip103
+\partial@page=\box95
+\last@line=\box96
+\mc@boxedresult=\box97
+\maxbalancingoverflow=\dimen371
+\mult@rightbox=\box98
+\mult@grightbox=\box99
+\mult@firstbox=\box100
+\mult@gfirstbox=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\c@minrows=\count397
+\c@columnbadness=\count398
+\c@finalcolumnbadness=\count399
+\last@try=\dimen372
+\multicolovershoot=\dimen373
+\multicolundershoot=\dimen374
+\mult@nat@firstbox=\box138
+\colbreak@box=\box139
+\mc@col@check@num=\count400
+))
+\main@idxfile=\write7
+\openout7 = `main.idx'.
+
+
+Writing index file main.idx
+(Commands.tex)
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM main.toc on input line 26.
+(minitoc)             PREPARING MINITOCS FROM main.toc on input line 27.
 Package minitoc Info: I0033
 (minitoc)             Writing main.mtc1.
 \openout3 = `main.mtc1'.
@@ -1335,12 +1421,16 @@ Package minitoc Info: I0033
 (minitoc)             Writing main.mtc10.
 \openout3 = `main.mtc10'.
 
+Package minitoc Info: I0033
+(minitoc)             Writing main.mtc11.
+\openout3 = `main.mtc11'.
+
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ma
 in.aex <nul: /p x=^%~$PATH:i>> main.aex)...executed.
 
 runsystem(del main.aex)...executed.
 
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 26
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 27
 .
 
 (C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
@@ -1349,29 +1439,29 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 (C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
 end-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count391
-\l__pdf_internal_box=\box94
+\l__color_backend_stack_int=\count401
+\l__pdf_internal_box=\box140
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1411,32 +1501,23 @@ LaTeX Font Info:    ... okay on input line 26.
 (C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count392
-\scratchdimen=\dimen366
-\scratchbox=\box95
-\nofMPsegments=\count393
-\nofMParguments=\count394
+\scratchcounter=\count402
+\scratchdimen=\dimen375
+\scratchbox=\box141
+\nofMPsegments=\count403
+\nofMParguments=\count404
 \everyMPshowfont=\toks64
-\MPscratchCnt=\count395
-\MPscratchDim=\dimen367
-\MPnumerator=\count396
-\makeMPintoPDFobject=\count397
+\MPscratchCnt=\count405
+\MPscratchDim=\dimen376
+\MPnumerator=\count406
+\makeMPintoPDFobject=\count407
 \everyMPtoPDFconversion=\toks65
 )
 (C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\eps
 topdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.st
-y
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopd
 f-sys.cfg
@@ -1449,10 +1530,10 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 26.
+Package hyperref Info: Link coloring OFF on input line 27.
  (main.out) (main.out)
-\@outlinefile=\write7
-\openout7 = `main.out'.
+\@outlinefile=\write8
+\openout8 = `main.out'.
 
 
 (C:\Users\NICOLAS YODA\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflsc
@@ -1470,14 +1551,14 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Info: Redefining \degres on input line 26.
+LaTeX Info: Redefining \degres on input line 27.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 26.
+(french.ldf)             reported on input line 27.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 26.
-LaTeX Info: Redefining \up on input line 26.
+(french.ldf)             reported on input line 27.
+LaTeX Info: Redefining \up on input line 27.
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -1512,6 +1593,17 @@ Overfull \hbox (18.22058pt too wide) in alignment at lines 85--85
 [][][][][] 
  []
 
+
+Overfull \hbox (1.76227pt too wide) in paragraph at lines 148--149
+[]\T1/ptm/b/n/14 Frédéric Toun-wen-dyam OUE-DRAOGO\T1/ptm/m/n/12 , Pro-fes-seur
+ ti-tu-laire à l'Uni-ver-sité Nor-bert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
 [1
 
 {C:/Users/NICOLAS YODA/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Use
@@ -1537,15 +1629,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
  []
 
 
-Overfull \hbox (7.34871pt too wide) in paragraph at lines 7--13
-[]\T1/ptm/m/n/12 Nous te-nons à ex-pri-mer notre pro-fonde re-con-nais-sance à 
-notre pres-ti-gieuse Uni-ver-sité Nor-bert
+Overfull \hbox (29.32378pt too wide) in paragraph at lines 7--9
+\T1/ptm/m/n/12 reçu de-puis le dé-but de notre par-coure. Cette for-ma-tion nou
+s a per-mis d'ap-pro-fon-dir nos connais-sances
+ []
+
+
+Overfull \hbox (38.5151pt too wide) in paragraph at lines 7--9
+\T1/ptm/m/n/12 so-lide pour le bon dé-rou-le-ment de cette aven-ture. Sa su-per
+-vi-sion et ses sug-ges-tions ont consi-dé-ra-ble-ment
+ []
+
+
+Overfull \hbox (32.67165pt too wide) in paragraph at lines 7--9
+\T1/ptm/m/n/12 des Ser-vices In-for-ma-tique com-posé du Di-rec-teur \T1/ptm/b/
+n/12 Pao-nour SOME\T1/ptm/m/n/12 , Mdme \T1/ptm/b/n/12 NA-GALO/OUEDRAOGO
+ []
+
+
+Overfull \hbox (25.66295pt too wide) in paragraph at lines 7--9
+\T1/ptm/b/n/12 Adé-line \T1/ptm/m/n/12 pour la dis-po-ni-bi-lité, leurs en-cou-
+ra-ge-ments et leurs sou-tiens de tout genre, Leur bien-veillance
  []
 
 ) [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
  []
 
@@ -1557,28 +1667,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3
 
 ])
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write9
+\openout9 = `main.toc'.
 
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 
  []
 
 (main.lot)
-\tf@lot=\write9
-\openout9 = `main.lot'.
+\tf@lot=\write10
+\openout10 = `main.lot'.
 
  [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
 (main.lof)
-\tf@lof=\write10
-\openout10 = `main.lof'.
+\tf@lof=\write11
+\openout11 = `main.lof'.
 
  (chapitre/03-ListeDesAbr2.tex [6
 
@@ -1587,20 +1697,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
+) (chapitre/04-IntroductionGeneral.tex [7
 
-Overfull \hbox (2.957pt too wide) in paragraph at lines 55--57
-[]\T1/ptm/m/n/12 MET/GEH : Ma-na-ge-ment des En-tre-prises Tou-ris-tiques/ Ges-
-tion des En-tre-prises Hô-te-lières
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
-[7
-
-]) (chapitre/04-IntroductionGeneral.tex [8]
+]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
@@ -1612,18 +1711,11 @@ nt à adap-ter leurs mé-thodes d'ap-pren-tis-sage
  []
 
 
-Overfull \hbox (13.02397pt too wide) in paragraph at lines 13--23
-[]\T1/ptm/m/n/12 Notre rap-port, sous le thème : ^^S Ap-pli-ca-tion web des mé-
-moires et thèses sou-te-nue à l'Uni-ver-sité
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
  []
 
-
-Overfull \hbox (9.19919pt too wide) in paragraph at lines 13--23
-\T1/ptm/m/n/12 - Un sixième cha-pitre dans le-quel il sera ques-tion de concep-
-tion. Nous par-le-rons de la struc-tu-ra-tion
- []
-
-[9
+[8
 
 ]) (chapitre/05-Chapitre1.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1631,11 +1723,16 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {PrÃ©sentation de la structure hÃ´te} [1]
+            {PrÃ©sentation de la structure de formation} [1]
 Chapitre 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
+ []
+
+
+Overfull \hbox (37.04881pt too wide) in paragraph at lines 1--1
+| \T1/ptm/b/n/26 Pré-sen-ta-tion de la struc-ture de for-ma-tion| 
  []
 
 \openout3 = `main.mtc'.
@@ -1694,108 +1791,131 @@ Overfull \hbox (9.1472pt too wide) in paragraph at lines 37--53
 [][] 
  []
 
-<images/organigramme st.PNG, id=258, 522.45187pt x 264.23718pt>
+<images/organigramme st.PNG, id=367, 605.26125pt x 262.73157pt>
 File: images/organigramme st.PNG Graphic file (type png)
 <use images/organigramme st.PNG>
 Package pdftex.def Info: images/organigramme st.PNG  used on input line 68.
-(pdftex.def)             Requested size: 455.2549pt x 256.08798pt.
+(pdftex.def)             Requested size: 455.24701pt x 256.08406pt.
 
-Overfull \hbox (14.01079pt too wide) in paragraph at lines 68--69
+Overfull \hbox (14.0029pt too wide) in paragraph at lines 68--69
  [] 
  []
 
-[4]) [5 <./images/organigramme st.PNG>] (chapitre/Chapitre2.tex [6]
+[4]
+Overfull \hbox (15.14786pt too wide) in paragraph at lines 80--81
+[]\T1/ptm/m/n/12 L'Université Nor-bert ZONGO ac-tuel-le-ment sous la di-rec-tio
+n du \T1/ptm/b/n/12 Pr Issa Ab-dou MOU-MOULA
+ []
+
+[5 <./images/organigramme st.PNG>]) (chapitre/Chapitre2.tex [6]
 Chapitre 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-\openout3 = `main.mtc'.
 
-\openout3 = `main.mtc'.
-
-(main.mtc5
-Overfull \hbox (16.47504pt too wide) in paragraph at lines 5--5
- [][] [][]\T1/cmr/m/n/10.95 Echange entre les au-teurs des tra-vaux de re-cherc
-he et la com-mu-nauté 
+Overfull \hbox (39.10309pt too wide) in paragraph at lines 1--1
+| \T1/ptm/b/n/26 Pro-blé-ma-tique et mé-tho-do-lo-gie de tra-vail| 
  []
 
-) [7
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(main.mtc5) [7
 
 ]
-Overfull \hbox (16.57845pt too wide) in paragraph at lines 12--12
-\T1/ptm/m/n/12 les uti-li-sa-teurs peuvent se re-trou-ver en liste d'at-tente o
-u se heur-ter à l'in-dis-po-ni-bi-lité des do-cu-ments.
+Overfull \hbox (9.05519pt too wide) in paragraph at lines 12--12
+\T1/ptm/m/n/12 dans les bi-blio-thèques phy-siques. Lors-qu'un ou-vrage ou un m
+é-moire est par-ti-cu-liè-re-ment sol-li-cité,
+ []
+
+
+Overfull \hbox (7.24286pt too wide) in paragraph at lines 12--12
+\T1/ptm/m/n/12 les étu-diants peuvent se re-trou-ver en liste d'at-tente ou se 
+heur-ter à l'in-dis-po-ni-bi-lité des do-cu-ments.
+ []
+
+
+Overfull \hbox (2.2629pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/12 né-ces-site non seule-ment une pré-sence phy-sique à la bi-blio-
+thèque, mais éga-le-ment la dis-po-ni-bi-lité
+ []
+
+
+Overfull \hbox (9.36676pt too wide) in paragraph at lines 17--19
+\T1/ptm/m/n/12 qu'oc-cupe la re-cherche, il se-rai ju-di-cieux de rendre plus a
+isé l'ac-cès et l'ex-ploi-ta-tion des mé-moires
  []
 
 [8]
-Overfull \hbox (17.1304pt too wide) in paragraph at lines 20--20
-\T1/ptm/m/n/12 re-cherche, tout en of-frant une ac-ces-si-bi-lité ac-crue aux u
-ti-li-sa-teurs. Cette tran-si-tion vers le nu-mé-rique
+Overfull \hbox (10.84377pt too wide) in paragraph at lines 27--28
+\T1/ptm/m/n/12 per-met-tant aux membres de la com-mu-nauté uni-ver-si-taire de 
+pou-voir ex-po-ser leur in-com-pré-hen-sion
  []
 
 
-Overfull \hbox (10.6119pt too wide) in paragraph at lines 22--22
-[]\T1/ptm/m/n/12 Préserver l'in-té-grité des do-cu-ments dans des condi-tions o
-p-ti-males. Contrai-re-ment aux sup-ports
- []
-
-
-Overfull \hbox (5.31044pt too wide) in paragraph at lines 24--24
-\T1/ptm/m/n/12 fron-tières phy-siques des bi-blio-thèques tra-di-tion-nelles, p
-er-met-tant ainsi aux uti-li-sa-teurs d'ex-plo-rer
- []
-
-
-Overfull \hbox (15.46266pt too wide) in paragraph at lines 26--26
-\T1/ptm/m/n/12 fonc-tion-na-lité de re-cherche amé-lio-rée contri-bue à op-ti-m
-i-ser l'ef-fi-ca-cité de la re-cherche aca-dé-mique,
+Overfull \hbox (17.33464pt too wide) in paragraph at lines 27--28
+\T1/ptm/m/n/12 de cer-taines par-ties des mé-moires de thèses ou mé-moire de ma
+s-ter afin de bé-né-fi-cier des ex-pli-ca-tions
  []
 
 [9]
-Overfull \hbox (6.76144pt too wide) in paragraph at lines 31--31
-|[]\T1/ptm/b/n/14.4 Echange entre les au-teurs des tra-vaux de re-cherche et la
- com-mu-nauté
+Overfull \hbox (9.54434pt too wide) in paragraph at lines 39--40
+[]\T1/ptm/m/n/12 - Rendre dis-po-nible de fa-çon per-ma-nent(24/7) les do-cu-me
+nts et Ré-duire les coûts d'im-pres-sion
  []
 
 
-Overfull \hbox (9.67943pt too wide) in paragraph at lines 36--36
-\T1/ptm/m/n/12 pré-oc-cu-pa-tions afin que les au-teurs puissent ré-pondre aux 
-ques-tions, cla-ri-fier les points com-plexes. 
+Overfull \hbox (3.91566pt too wide) in paragraph at lines 41--42
+[]\T1/ptm/m/n/12 Notre pre-mier ob-jec-tif se-con-daire est donc d'as-su-rer la
+ mise en ligne des do-cu-ments (ré-sul-tats
+ []
+
+
+Overfull \hbox (5.54854pt too wide) in paragraph at lines 45--45
+[]\T1/ptm/m/n/12 -Accélérer la re-cherche. Les fonc-tions de re-cherche avan-cé
+e per-mettent de trou-ver ra-pi-de-ment
+ []
+
+
+Overfull \hbox (20.81418pt too wide) in paragraph at lines 53--53
+\T1/ptm/m/n/12 mots-clés de re-cherche. Cette fonc-tion-na-lité de re-cherche a
+mé-lio-rée contri-bue à op-ti-mi-ser l'ef-fi-ca-cité
  []
 
 [10]
-Overfull \hbox (5.54057pt too wide) in paragraph at lines 40--41
-\T1/ptm/m/n/12 cher-cheurs et pu-blic, à pro-mou-voir une com-pré-hen-sion plus
- ap-pro-fon-die des tra-vaux de re-cherche
+Overfull \hbox (6.70047pt too wide) in paragraph at lines 56--58
+[]\T1/ptm/b/n/12 Avantage d'un es-pace pour les échange entre les ac-teurs de l
+a com-mu-nauté uni-ver-si-taire.
  []
 
 
-Overfull \hbox (14.2035pt too wide) in paragraph at lines 42--42
-\T1/ptm/m/n/12 re-cherche et la com-mu-nauté aca-dé-mique. En fa-vo-ri-sant un 
-dia-logue ou-vert, trans-pa-rent et in-ter-ac-tif,
+Overfull \hbox (0.34166pt too wide) in paragraph at lines 56--58
+\T1/ptm/m/n/12 en-ri-chis-sant entre les au-teurs de la com-mu-nauté uni-ver-si
+-taire est aussi es-sen-tiel car cela fa-ci-li-tera
  []
 
 
-Overfull \hbox (17.23892pt too wide) in paragraph at lines 43--44
-\T1/ptm/m/n/12 peuvent pros-pé-rer. En fa-vo-ri-sant la dif-fu-sion trans-pa-re
-nte et ac-ces-sible et sé-cu-risé des connais-sances
+Overfull \hbox (27.32907pt too wide) in paragraph at lines 60--60
+[]\T1/ptm/m/n/12 - Avoir un es-pace où cha-cun pourra ap-pré-cier les tra-vaux 
+ou ex-po-ser ses dif-fé-rentes pré-oc-cu-pa-tions
  []
 
 
-Overfull \hbox (7.78284pt too wide) in paragraph at lines 46--46
-\T1/ptm/m/n/12 les bi-blio-thèques phy-siques pré-sentent de nom-breuses li-mi-
-ta-tions. En trans-for-mant ces do-cu-ments
+Overfull \hbox (25.37532pt too wide) in paragraph at lines 64--64
+\T1/ptm/m/n/12 des tra-vaux de re-cherche et à ca-ta-ly-ser l'in-no-va-tion et 
+le pro-grès dans notre com-mu-nauté uni-ver-si-taire. 
  []
 
-[11]
-Overfull \hbox (6.81134pt too wide) in paragraph at lines 50--50
-\T1/ptm/m/n/12 pro-meut une culture de col-la-bo-ra-tion et de trans-pa-rence, 
-es-sen-tielle pour le pro-grès et l'in-no-va-tion
- []
-
-) (chapitre/Chapitre3.tex [12]
+[11] [12]
+<images/scrum.png, id=416, 1551.7975pt x 717.68124pt>
+File: images/scrum.png Graphic file (type png)
+<use images/scrum.png>
+Package pdftex.def Info: images/scrum.png  used on input line 85.
+(pdftex.def)             Requested size: 398.31961pt x 241.8401pt.
+ [13 <./images/scrum.png>] [14]) (chapitre/Chapitre4.tex [15]
 Chapitre 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
@@ -1806,44 +1926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc6) [13
-
-]
-Overfull \hbox (2.90884pt too wide) in paragraph at lines 10--10
-[]\T1/ptm/m/n/12 Créer une pla-te-forme est un défi com-plexe qui né-ces-site u
-ne ap-proche mé-tho-dique et ef-fi-cace.
- []
-
-
-Overfull \hbox (16.9864pt too wide) in paragraph at lines 10--10
-\T1/ptm/m/n/12 Cette mé-tho-do-lo-gie fa-vo-rise la flexi-bi-lité, la col-la-bo
--ra-tion et la li-vrai-son conti-nue de fonc-tion-na-li-tés.
- []
-
-
-Overfull \hbox (22.6026pt too wide) in paragraph at lines 15--19
-\T1/ptm/m/n/12 ap-proche ité-ra-tive et in-cré-men-tale, où le tra-vail est or-
-ga-nisé en cycles courts ap-pe-lés "sprints"[biblio].
- []
-
-[14]
-<images/scrum.png, id=314, 1551.7975pt x 717.68124pt>
-File: images/scrum.png Graphic file (type png)
-<use images/scrum.png>
-Package pdftex.def Info: images/scrum.png  used on input line 26.
-(pdftex.def)             Requested size: 355.65096pt x 256.07631pt.
- [15 <./images/scrum.png>]) (chapitre/Chapitre4.tex [16]
-Chapitre 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-
- []
-
-\openout3 = `main.mtc'.
-
-\openout3 = `main.mtc'.
-
-(main.mtc7) [17
+(main.mtc6) [16
 
 ]
 Overfull \hbox (32.44006pt too wide) in paragraph at lines 13--14
@@ -1863,42 +1946,79 @@ Overfull \hbox (5.50072pt too wide) in paragraph at lines 16--16
 ner du fonc-tion-ne-ment et de re-cueillir
  []
 
+[17]
+Overfull \hbox (12.89557pt too wide) in paragraph at lines 27--27
+\T1/ptm/m/n/12 une ex-plo-ra-tion ef-fi-cace de la base de don-nées, en per-met
+-tant aux uti-li-sa-teurs de trou-ver ra-pi-de-ment
+ []
+
+
+Overfull \hbox (21.30356pt too wide) in paragraph at lines 29--30
+[]\T1/ptm/m/n/12 d) Pu-bli-ca-tion de pré-oc-cu-pa-tions : Les uti-li-sa-teurs 
+ont la pos-si-bi-lité de pu-blier des pré-oc-cu-pa-tions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\T1/ptm/m/n/12 Description de la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+[]|\T1/ptm/m/n/12 id des uti-li-sa-teurs dans
+ []
+
+
+Overfull \hbox (5.33095pt too wide) in paragraph at lines 90--92
+[]\T1/ptm/m/n/12 Les dia-grammes de classes UML per-mettent de mo-dé-li-ser, de
+ ma-nière dé-cla-ra-tive, la struc-ture
+ []
+
 [18]
-Overfull \hbox (13.85484pt too wide) in paragraph at lines 27--27
-|\T1/ptm/b/n/12 c) Re-cherche de do-cu-ment avec mots-clés : Les uti-li-sa-teur
-s peuvent ef-fec-tuer des re-cherches
- []
-
-
-Overfull \hbox (7.08658pt too wide) in paragraph at lines 27--27
-\T1/ptm/b/n/12 avan-cées sur la pla-te-forme en uti-li-sant des mots-clés spé-c
-i-fiques. Cette fonc-tion-na-lité per-met
- []
-
-[19]
-Overfull \hbox (14.60997pt too wide) in paragraph at lines 61--61
+Overfull \hbox (14.60997pt too wide) in paragraph at lines 96--96
 \T1/ptm/m/n/12 fa-ci-li-tant ainsi la com-pré-hen-sion des dif-fé-rentes com-po
 -santes et de leurs in-ter-ac-tions. En éta-blis-sant
  []
 
+[19]
+<images/diagramme de classes.png, id=457, 917.4275pt x 191.71625pt>
+File: images/diagramme de classes.png Graphic file (type png)
+<use images/diagramme de classes.png>
+Package pdftex.def Info: images/diagramme de classes.png  used on input line 10
+6.
+(pdftex.def)             Requested size: 455.24094pt x 133.73532pt.
 
-Overfull \hbox (24.22263pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/12 pro-jet. Chaque dia-gramme est ac-com-pa-gné d'une ex-pli-ca-tio
-n des classes prin-ci-pales, des as-so-cia-tions
+Overfull \hbox (13.99683pt too wide) in paragraph at lines 106--107
+ [] 
+ []
+
+<images/uml envoi doc.png, id=458, 912.40875pt x 356.33125pt>
+File: images/uml envoi doc.png Graphic file (type png)
+<use images/uml envoi doc.png>
+Package pdftex.def Info: images/uml envoi doc.png  used on input line 119.
+(pdftex.def)             Requested size: 355.657pt x 170.71625pt.
+
+Overfull \hbox (10.21678pt too wide) in paragraph at lines 111--121
+[]\T1/ptm/b/n/12 Séquence : \T1/ptm/m/n/12 En-voi de do-cu-ment sur la pla-te-f
+orme. Ce dia-gramme de sé-quence montre com-ment
  []
 
 
-Overfull \hbox (18.9664pt too wide) in paragraph at lines 63--63
-\T1/ptm/m/n/12 et des dé-pen-dances, met-tant en lu-mière les fonc-tion-na-li-t
-és et les com-por-te-ments de notre pla-te-forme.
+Overfull \hbox (3.74863pt too wide) in paragraph at lines 123--125
+[]\T1/ptm/b/n/12 Séquence : En-voi de pré-oc-cu-pa-tion \T1/ptm/m/n/12 Ce dia-g
+ramme de sé-quence montre com-ment se dé-roule
  []
 
-File: images/scrum.png Graphic file (type png)
-<use images/scrum.png>
-Package pdftex.def Info: images/scrum.png  used on input line 71.
-(pdftex.def)             Requested size: 355.65096pt x 256.07631pt.
-[20]) (chapitre/Chapitre5.tex [21]
-Chapitre 5.
+<images/sequence preocupation.png, id=459, 681.54625pt x 531.9875pt>
+File: images/sequence preocupation.png Graphic file (type png)
+<use images/sequence preocupation.png>
+Package pdftex.def Info: images/sequence preocupation.png  used on input line 1
+32.
+(pdftex.def)             Requested size: 355.66443pt x 256.08167pt.
+[20 <./images/diagramme de classes.png (PNG copy)> <./images/uml envoi doc.png 
+(PNG copy)>]) (chapitre/Chapitre5.tex [21 <./images/sequence preocupation.png (
+PNG copy)>]
+Chapitre 4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
@@ -1908,7 +2028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
 \openout3 = `main.mtc'.
 
-(main.mtc8) [22
+(main.mtc7) [22
 
 ]
 Overfull \hbox (15.04066pt too wide) in paragraph at lines 17--17
@@ -1951,11 +2071,11 @@ Overfull \hbox (14.81552pt too wide) in paragraph at lines 42--44
 ment les tâches de dé-ve-lop-pe-ment com-plexes.
  []
 
-<images/vs code.jpg, id=375, 204.765pt x 192.72pt>
+<images/vs code.jpg, id=494, 204.765pt x 192.72pt>
 File: images/vs code.jpg Graphic file (type jpg)
 <use images/vs code.jpg>
 Package pdftex.def Info: images/vs code.jpg  used on input line 52.
-(pdftex.def)             Requested size: 196.33469pt x 190.63164pt.
+(pdftex.def)             Requested size: 113.81462pt x 113.80966pt.
 [25]
 Overfull \hbox (4.49565pt too wide) in paragraph at lines 61--61
 []|\T1/ptm/m/n/12 Fonctionnalité/extension| 
@@ -1977,98 +2097,309 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--93
  []
 
 [26 <./images/vs code.jpg>] [27]
-<images/laragon logo.jpg, id=389, 259.97125pt x 194.7275pt>
-File: images/laragon logo.jpg Graphic file (type jpg)
-<use images/laragon logo.jpg>
-Package pdftex.def Info: images/laragon logo.jpg  used on input line 119.
-(pdftex.def)             Requested size: 196.32271pt x 190.63849pt.
-
-Overfull \hbox (21.59244pt too wide) in paragraph at lines 123--124
+Overfull \hbox (21.59244pt too wide) in paragraph at lines 115--117
 []\T1/ptm/m/n/12 En uti-li-sant La-ra-gon, nous avons pu op-ti-mi-ser notre flu
 x de tra-vail et amé-lio-rer notre pro-duc-ti-vité.
  []
 
 
-Overfull \hbox (3.19815pt too wide) in paragraph at lines 128--129
+Overfull \hbox (0.96805pt too wide) in paragraph at lines 115--117
+\T1/ptm/m/n/12 en-vi-ron-ne-ment de dé-ve-lop-pe-ment uni-ver-sel por-table, is
+olé, ra-pide et puis-sant pour PHP, Node.js,
+ []
+
+
+Overfull \hbox (3.19815pt too wide) in paragraph at lines 121--122
 \T1/ptm/m/n/12 ver-sion, plus pré-ci-sé-ment Git. L'uti-li-sa-tion d'un VCS (Ve
 r-sion Control Sys-tem) est in-dis-pen-sable
  []
 
-[28 <./images/laragon logo.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 
-Overfull \hbox (3.92801pt too wide) in paragraph at lines 136--137
+Overfull \hbox (3.92801pt too wide) in paragraph at lines 129--130
 []\T1/ptm/m/n/12 Suivi des Mo-di-fi-ca-tions : Git en-re-gistre chaque mo-di-fi
 -ca-tion ap-por-tée aux fi-chiers, per-met-tant
  []
 
-
-Overfull \hbox (3.89243pt too wide) in paragraph at lines 141--143
+[28]
+Overfull \hbox (3.89243pt too wide) in paragraph at lines 134--136
 []\T1/ptm/m/n/12 Réversibilité : En cas de pro-blème, Git per-met de re-ve-nir 
 fa-ci-le-ment à une ver-sion pré-cé-dente,
  []
 
 
-Overfull \hbox (23.52454pt too wide) in paragraph at lines 147--149
+Overfull \hbox (23.52454pt too wide) in paragraph at lines 140--142
 []\T1/ptm/m/n/12 En com-plé-ment de Git, nous avons uti-lisé une pla-te-forme d
 e ges-tion de ver-sion et de col-la-bo-ra-tion
  []
 
-[29]
-Overfull \hbox (1.78221pt too wide) in paragraph at lines 151--152
+
+Overfull \hbox (1.78221pt too wide) in paragraph at lines 144--145
 \T1/ptm/m/n/12 sé-cu-risé à l'his-to-rique com-plet des mo-di-fi-ca-tions et au
 x dif-fé-rentes branches. Cette cen-tra-li-sa-tion
  []
 
-) [30] (chapitre/07-ConclusionGenerale.tex [31]
+[29]
+Overfull \hbox (13.98373pt too wide) in paragraph at lines 151--152
+[]\T1/ptm/m/n/12 Ce cha-pitre dé-voi-lera en dé-tail la concep-tion de notre pl
+a-te-forme, en pré-sen-tant les ar-chi-tec-tures
+ []
+
+
+Overfull \hbox (26.0352pt too wide) in paragraph at lines 151--152
+\T1/ptm/m/n/12 fonc-tion-na-li-tés prin-ci-pales, afin de don-ner une vi-sion c
+om-plète et trans-pa-rente de son fonc-tion-ne-ment. 
+ []
+
+[30]
+<images/capture html.png, id=531, 847.66687pt x 405.76593pt>
+File: images/capture html.png Graphic file (type png)
+<use images/capture html.png>
+Package pdftex.def Info: images/capture html.png  used on input line 165.
+(pdftex.def)             Requested size: 369.88327pt x 190.63571pt.
+<images/capture css.png, id=533, 310.91156pt x 325.96782pt>
+File: images/capture css.png Graphic file (type png)
+<use images/capture css.png>
+Package pdftex.def Info: images/capture css.png  used on input line 178.
+(pdftex.def)             Requested size: 369.8897pt x 190.63817pt.
+ [31 <./images/capture html.png>]
+<images/controllerpreoc.PNG, id=544, 414.04688pt x 88.07906pt>
+File: images/controllerpreoc.PNG Graphic file (type png)
+<use images/controllerpreoc.PNG>
+Package pdftex.def Info: images/controllerpreoc.PNG  used on input line 200.
+(pdftex.def)             Requested size: 369.89679pt x 190.63362pt.
+ [32 <./images/capture css.png>]
+<images/laravel logo.png, id=553, 1027.84pt x 1027.84pt>
+File: images/laravel logo.png Graphic file (type png)
+<use images/laravel logo.png>
+Package pdftex.def Info: images/laravel logo.png  used on input line 212.
+(pdftex.def)             Requested size: 142.24985pt x 142.24985pt.
+ [33 <./images/controllerpreoc.PNG> <./images/laravel logo.png>]
+<images/logo mysql.png, id=562, 2509.375pt x 1568.86125pt>
+File: images/logo mysql.png Graphic file (type png)
+<use images/logo mysql.png>
+Package pdftex.def Info: images/logo mysql.png  used on input line 226.
+(pdftex.def)             Requested size: 142.24709pt x 142.24472pt.
+)
+(chapitre/Chapitre5.1.tex [34 <./images/logo mysql.png>]
+Chapitre 5.
+
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-) (main.bbl [32
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(main.mtc8
+Overfull \hbox (1.2062pt too wide) in paragraph at lines 1--1
+ [][] [][]\T1/cmr/bx/n/10.95 Quelques in-ter-faces de la pla-te-forme nu-mé-riq
+ue des mé-moires 
+ []
+
+) [35
+
+]
+Overfull \hbox (4.22823pt too wide) in paragraph at lines 10--10
+[]\T1/ptm/m/n/12 Ce cha-pitre est dé-dié à la pré-sen-ta-tion de notre pla-te-f
+orme nu-mé-rique, conçue pour cen-tra-li-ser
+ []
+
+
+Overfull \hbox (3.42891pt too wide) in paragraph at lines 11--13
+\T1/ptm/m/n/12 dans les [], nous avons dé-ve-loppé une so-lu-tion in-no-vante q
+ui ré-pond aux be-soins de la com-mu-nauté
+ []
+
+<images/logo btz.png, id=579, 945.5325pt x 1000.73875pt>
+File: images/logo btz.png Graphic file (type png)
+<use images/logo btz.png>
+Package pdftex.def Info: images/logo btz.png  used on input line 21.
+(pdftex.def)             Requested size: 142.25658pt x 142.25554pt.
+
+Overfull \hbox (27.65231pt too wide) in paragraph at lines 25--25
+|\T1/ptm/b/n/17.28 5.1 Quelques in-ter-faces de la pla-te-forme nu-mé-rique des
+ mé-moires
+ []
+
+<images/p1s1.PNG, id=580, 1014.79124pt x 493.845pt>
+File: images/p1s1.PNG Graphic file (type png)
+<use images/p1s1.PNG>
+Package pdftex.def Info: images/p1s1.PNG  used on input line 39.
+(pdftex.def)             Requested size: 455.24275pt x 256.06993pt.
+
+Overfull \hbox (13.99864pt too wide) in paragraph at lines 39--40
+ [] 
+ []
+
+[36 <./images/logo btz.png>]
+<images/p1s2.PNG, id=586, 1010.27437pt x 308.65312pt>
+File: images/p1s2.PNG Graphic file (type png)
+<use images/p1s2.PNG>
+Package pdftex.def Info: images/p1s2.PNG  used on input line 53.
+(pdftex.def)             Requested size: 455.2513pt x 256.09724pt.
+
+Overfull \hbox (14.00719pt too wide) in paragraph at lines 53--54
+ [] 
+ []
+
+<images/p1S3.PNG, id=587, 1011.78pt x 366.61969pt>
+File: images/p1S3.PNG Graphic file (type png)
+<use images/p1S3.PNG>
+Package pdftex.def Info: images/p1S3.PNG  used on input line 67.
+(pdftex.def)             Requested size: 455.25047pt x 256.08939pt.
+
+Overfull \hbox (14.00636pt too wide) in paragraph at lines 67--68
+ [] 
+ []
+
+[37 <./images/p1s1.PNG> <./images/p1s2.PNG>]
+<images/ressources.PNG, id=594, 994.46532pt x 492.33937pt>
+File: images/ressources.PNG Graphic file (type png)
+<use images/ressources.PNG>
+Package pdftex.def Info: images/ressources.PNG  used on input line 82.
+(pdftex.def)             Requested size: 455.24416pt x 256.08554pt.
+
+Overfull \hbox (14.00005pt too wide) in paragraph at lines 82--83
+ [] 
+ []
+
+[38 <./images/p1S3.PNG>]
+<images/preocupation.PNG, id=600, 685.05937pt x 438.13687pt>
+File: images/preocupation.PNG Graphic file (type png)
+<use images/preocupation.PNG>
+Package pdftex.def Info: images/preocupation.PNG  used on input line 95.
+(pdftex.def)             Requested size: 455.25562pt x 256.07838pt.
+
+Overfull \hbox (14.0115pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
+<images/liste des preocupation.PNG, id=601, 1011.02719pt x 462.97969pt>
+File: images/liste des preocupation.PNG Graphic file (type png)
+<use images/liste des preocupation.PNG>
+Package pdftex.def Info: images/liste des preocupation.PNG  used on input line 
+108.
+(pdftex.def)             Requested size: 455.25114pt x 256.0737pt.
+
+Overfull \hbox (14.00703pt too wide) in paragraph at lines 108--109
+ [] 
+ []
+
+[39 <./images/ressources.PNG> <./images/preocupation.PNG>])
+(chapitre/Chapitre6.tex [40 <./images/liste des preocupation.PNG>]
+Chapitre 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+(main.mtc9) [41
+
+]
+Overfull \hbox (3.95503pt too wide) in paragraph at lines 16--17
+\T1/ptm/m/n/12 Les fonc-tion-na-li-tés de re-cherche avan-cée in-té-grées via J
+a-vaS-cript et jQuery ont consi-dé-ra-ble-ment
+ []
+
+[42]
+Overfull \hbox (28.20576pt too wide) in paragraph at lines 26--27
+\T1/ptm/m/n/12 sau-ve-gardes ré-gu-lières et la pro-tec-tion contre les in-jec-
+tions SQL ren-forcent la fia-bi-lité de l'ap-pli-ca-tion. 
+ []
+
+
+Overfull \hbox (6.12813pt too wide) in paragraph at lines 36--38
+\T1/ptm/m/n/12 temps né-ces-saire pour lo-ca-li-ser des do-cu-ments per-ti-nent
+s, amé-lio-rant ainsi l'ef-fi-ca-cité
+ []
+
+
+Overfull \hbox (6.44075pt too wide) in paragraph at lines 39--40
+[]\T1/ptm/b/n/12 Interaction et col-la-bo-ra-tion : \T1/ptm/m/n/12 L'in-ter-fac
+e uti-li-sa-teur in-ter-ac-tive fa-vo-rise les échanges
+ []
+
+
+Overfull \hbox (28.68858pt too wide) in paragraph at lines 47--49
+[]\T1/ptm/b/n/12 Adoption et for-ma-tion : \T1/ptm/m/n/12 Bien que la pla-te-fo
+rme soit simple d'uti-li-sa-tion et tech-ni-que-ment
+ []
+
+[43]
+Overfull \hbox (7.62885pt too wide) in paragraph at lines 64--66
+\T1/ptm/m/n/12 l'amé-lio-ra-tion conti-nue de l'in-ter-face uti-li-sa-teur, en 
+in-té-grant des re-tours d'ex-pé-rience
+ []
+
+
+Overfull \hbox (0.30908pt too wide) in paragraph at lines 70--71
+[]\T1/ptm/b/n/12 Intégration mo-bile :\T1/ptm/m/n/12 Développer des ap-pli-ca-t
+ions mo-biles dé-diées pour-rait ac-croître
+ []
+
+) (chapitre/07-ConclusionGenerale.tex [44]
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+
+Overfull \hbox (21.72668pt too wide) in paragraph at lines 8--9
+\T1/ptm/m/n/12 marque une étape si-gni-fi-ca-tive dans la fa-ci-li-ta-tion de l
+'ac-cès aux res-sources aca-dé-miques. Confron-tés
+ []
+
+[45
+
+]) [46]
+runsystem(makeindex main.idx)...executed safely (allowed).
+
+ (main.ind
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+
+ []
+
+) (main.bbl [47
+
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 
  []
 
-) (chapitre/09-Annexes.tex [33
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 1--1
-
+Underfull \hbox (badness 1648) in paragraph at lines 8--13
+\T1/ptm/m/n/12 pro-ject ma-na-ge-ment.  \T1/ptm/m/it/12 In-ter-na-tio-nal Jour-
+nal of Ad-van-ced Com-pu-ter Science and
  []
 
-<images/your_image.png, id=422, 501.875pt x 786.94pt>
-File: images/your_image.png Graphic file (type png)
-<use images/your_image.png>
-Package pdftex.def Info: images/your_image.png  used on input line 24.
-(pdftex.def)             Requested size: 184.94801pt x 256.06467pt.
-[34
+[48
 
- <./images/your_image.png>]
-File: images/your_image.png Graphic file (type png)
-<use images/your_image.png>
-Package pdftex.def Info: images/your_image.png  used on input line 36.
-(pdftex.def)             Requested size: 184.94801pt x 256.06467pt.
-) (chapitre/10-DosDuRapport.tex [35]
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+]) (chapitre/10-DosDuRapport.tex [49]
+Overfull \hbox (10.11125pt too wide) in paragraph at lines 28--30
+\T1/ptm/m/n/12 La réa-li-sa-tion de notre bi-blio-thèque nu-mé-rique s'ins-crit
+ dans un contexte où l'ac-cès aux res-sources
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-<images/arabic.jpg, id=432, 918.43124pt x 309.155pt>
-File: images/arabic.jpg Graphic file (type jpg)
-<use images/arabic.jpg>
-Package pdftex.def Info: images/arabic.jpg  used on input line 40.
-(pdftex.def)             Requested size: 455.2485pt x 153.93556pt.
 )
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -2080,22 +2411,22 @@ Package minitoc(hints) Info: I0053
 (minitoc(hints))             please be aware that the minitoc package 
 (minitoc(hints))             facilities can not be used for new types 
 (minitoc(hints))             of floats defined by the float package.
- [36 <./images/arabic.jpg>] (main.aux)
+ [50] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9E0D7F94EFD58727AC41257D5925B4BD;6333.
+(rerunfilecheck)             Checksum: 1C99CB0B9968B5045EF1D0AE499D3A50;9096.
  ) 
 Here is how much of TeX's memory you used:
- 36275 strings out of 474485
- 715355 string characters out of 5740394
- 1940542 words of memory out of 5000000
- 57748 multiletter control sequences out of 15000+600000
+ 36706 strings out of 474485
+ 724074 string characters out of 5740394
+ 1943542 words of memory out of 5000000
+ 58117 multiletter control sequences out of 15000+600000
  645891 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,14n,103p,1014b,944s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,14n,103p,1038b,944s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\NICOLAS YODA\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
 00\ecrm1095.pk> <C:\Users\NICOLAS YODA\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
 appen/ec/dpi600\ecbx1095.pk> <C:\Users\NICOLAS YODA\AppData\Local\MiKTeX\fonts/
@@ -2104,9 +2435,9 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/NICOLAS YODA/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/NICOLA
 S YODA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users
 /NICOLAS YODA/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (46 pages, 1770793 bytes).
+Output written on main.pdf (59 pages, 1466378 bytes).
 PDF statistics:
- 587 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 847 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
+ 508 words of extra memory for PDF output out of 10000 (max. 10000000)
 

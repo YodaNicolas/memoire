@@ -184,7 +184,7 @@
 
   \fancyfoot[R]{\fontsize{12}{12}\selectfont Page \thepage}% Right footer
   
-  \fancyfoot[L]{\fontsize{12}{12}\selectfont ENET'COM SFAX}% Right header
+  \fancyfoot[L]{\fontsize{12}{12}\selectfont Informatique UNZ}% Right header
 
 }
 
@@ -203,7 +203,7 @@
 
   \fancyfoot[R]{\fontsize{12}{12}\selectfont Page \thepage}% Right footer
   
-  \fancyfoot[L]{\fontsize{12}{12}\selectfont\ ENET'COM SFAX}% Right header
+  \fancyfoot[L]{\fontsize{12}{12}\selectfont\ Informatique UNZ}% Right header
 
 }
 
